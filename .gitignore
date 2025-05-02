@@ -1,0 +1,40 @@
+# Root-level ignores
+.env
+*.log
+*.sqlite3
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+*.db
+*.pem
+
+# VSCode
+.vscode/
+
+# Python: server/
+server/__pycache__/
+server/*.py[cod]
+server/.mypy_cache/
+server/.pytest_cache/
+server/venv/
+server/env/
+server/.env
+server/.ruff_cache/
+
+# Node: client/
+client/node_modules/
+client/dist/
+client/.vite/
+client/.env
+client/.env.*.local
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
+client/.eslintcache
+
+# OS files
+Thumbs.db
+ehthumbs.db
+Icon?
